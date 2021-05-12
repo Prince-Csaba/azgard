@@ -5,5 +5,32 @@
   background-size: cover;
   background-position: center center;
   color: #fff;
+}
 
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url(./img/viking.jpg.webp) no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 1720px) {
+  .call-to-action {
+    max-width: 1720px;
+  }
+}
+
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3
 }
