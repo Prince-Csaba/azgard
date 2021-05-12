@@ -8,29 +8,18 @@
 }
 
 .call-to-action {
-  position: relative;
-  background-color: #343a40;
-  background: url(./img/viking.jpg.webp) no-repeat;
-  background-position: bottom;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./img/viking.jpg.webp");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  color: #fff;
   background-attachment: fixed;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 @media (min-width: 1720px) {
   .call-to-action {
     max-width: 1720px;
   }
-}
-
-
-.call-to-action .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: .3
 }
