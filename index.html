@@ -9,14 +9,14 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="style.css">
   <title>Azgárd - Home</title>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-4">
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">ÁZGÁRD</a>
+      <a class="navbar-brand ms-0 ms-lg-5" href="#">PROJEKT ÁZGÁRD</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,65 +27,106 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="./rolunk.html">Rólunk</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Módszerünk</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="./tananyagok.html">Tananyagok</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Visszajelzések</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kapcsolat</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./img/pexels-burst-373899.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./img/pexels-burst-374044.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./img/pexels-burst-373899.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-  </div>
-
-  <div class="container row justify-content-center">
-    <div class="col-lg-4">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+  <main>
+    <section>
+      <div class="row hero bg-overlay m-0">
+        <div
+          class="col-md-6 d-flex flex-column align-items-sm-center justify-content-center no-opac mx-md-5 mx-sm-auto p-sm-0 text-center text-md-left">
+          <h1><span class="text-uppercase">*Ingyenes</span> bevezető képzés:<br>
+            Önfejlesztés, ami működik!</h1>
+          <h3>
+            Avagy hogyan törj ki a magányból és érd el a kommunikációs céljaid
+            2021-ben
+          </h3>
+          <p>
+            Ha te is unod már Brian Tracy-t, de még nem mondtál le a fejlődésről, akkor add meg a mailcímed alább és egy
+            felejthetetlen utazásra invitálunk.
+          </p>
+          <div class="p-1">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="E-mail cím" aria-label="E-mail cím"
+                aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-success" type="button">Feliratkozom</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+    </section>
+
+    <section>
+      <div class="alert alert-info text-center" role="alert">
+        Iratkozz fel még ma a naprakész, XXI. századi önismereti és kommunikációs tippekért,
+        és légy tagja egy szuper közösségnek
+      </div>
+    </section>
+
+    <section class="container bg-light mt-5">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2>Cikkek</h2>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/pexels-burst-373899.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center mt-5 mt-md-0">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/pexels-burst-373899.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark mt-auto">Go somewhere</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+    </section>
+  </main>
 
-  <h1>Hello, Bootstrap!</h1>
+  <footer
+    class="bg-white text-dark mb-0 mt-5 py-4 d-flex justify-content-evenly flex-column flex-sm-row text-center text-sm-left">
+    <div class="my-2 my-sm-0">
+      <p class="mb-0">
+        ©Projekt Ázgárd. Minden jog fenntartva.
+      </p>
+    </div>
+    <div class="d-flex flex-column flex-md-row my-2 my-sm-0">
+      <p class="mb-0 px-2 py-xs-1 py-md-0">Adatkezelési irányevek</p>
+      <p class="mb-0 px-2 py-xs-1 py-md-0">Felhasználási feltételek</p>
+      <p class="mb-0 px-2 py-xs-1 py-md-0">Felelősségi nyilatkozat</p>
+    </div>
 
+  </footer>
 
 
   <!-- Optional JavaScript; choose one of the two! -->
