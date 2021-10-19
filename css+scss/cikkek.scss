@@ -3,3 +3,21 @@ p {
   margin-bottom: 0.3rem;
   font-size: 1.2rem;
 }
+
+div.gallery {
+  margin: auto;
+  display: block;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
