@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,kBAAkB;EAC9B,aAAa,EAAE,MAAM;EACrB,SAAS,EAAE,MAAM;CAClB",
+    "sources": [
+        "cikkek.scss"
+    ],
+    "names": [],
+    "file": "cikkek.css"
+}
