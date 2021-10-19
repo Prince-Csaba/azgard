@@ -1,3 +1,7 @@
+.light {
+  background-color: #505254;
+}
+
 .bg-overlay {
   height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("./img/pexels-burst-373899.jpg");
